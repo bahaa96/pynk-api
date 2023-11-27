@@ -5,4 +5,4 @@ import path from 'path';
 
 const sqlite = new Database("sqlite.db");
 const db = drizzle(sqlite);
-migrate(db, { migrationsFolder: path.join(import.meta.dir, "drizzle") });
+migrate(db, { migrationsFolder: "drizzle" });

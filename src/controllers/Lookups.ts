@@ -9,6 +9,11 @@ const LookupsController =  new Elysia({ prefix: '/lookups' })
       set.status = 400;
       return "Something Went Wrong!";
     }
+  }, {
+    detail: {
+      tags: ['Lookups'],
+      summary: "Returns a list of all the Countries where Pynk. operate",
+    }
   })
 
 export default LookupsController

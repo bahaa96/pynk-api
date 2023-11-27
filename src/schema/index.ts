@@ -9,5 +9,5 @@ export {
   userKey
 } from './User';
 export { profile } from './Profile';
-export { deal } from './Deal';
+export { deal, dealTranslation } from './Deal';
 export { store } from './Store';
